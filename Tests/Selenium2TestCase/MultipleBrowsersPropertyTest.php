@@ -54,13 +54,13 @@ class Extensions_Selenium2TestCaseMultipleBrowsersPropertyTest extends PHPUnit_E
 {
     public static $browsers = array(
         array(
-            'browserName' => 'firefox',
+            'browserName' => 'chrome',
             'host'        => 'localhost',
             'port'        => 4444,
             'sessionStrategy' => 'shared'
         ),
         array(
-            'browserName' => 'firefox',
+            'browserName' => 'chrome',
             'host'        => 'localhost',
             'port'        => 4444,
             'sessionStrategy' => 'isolated'

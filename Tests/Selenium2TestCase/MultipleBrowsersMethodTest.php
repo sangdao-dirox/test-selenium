@@ -57,13 +57,13 @@ class Extensions_Selenium2TestCaseMultipleBrowsersMethodTest extends PHPUnit_Ext
     {
         return array(
             array(
-                'browserName' => 'firefox',
+                'browserName' => 'chrome',
                 'host'        => 'localhost',
                 'port'        => 4444,
                 'sessionStrategy' => 'shared'
             ),
             array(
-                'browserName' => 'firefox',
+                'browserName' => 'chrome',
                 'host'        => 'localhost',
                 'port'        => 4444,
                 'sessionStrategy' => 'isolated'
