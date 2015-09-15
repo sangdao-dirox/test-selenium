@@ -10,5 +10,5 @@ php:
 #    allow_failures:
 #        - php: hhvm
 
-before_script: sudo ./.ci/before_script.sh
+before_script: ./.ci/before_script.sh
 script: "vendor/bin/phpunit Tests"
